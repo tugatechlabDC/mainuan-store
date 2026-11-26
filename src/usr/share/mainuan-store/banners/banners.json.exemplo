@@ -1,0 +1,12 @@
+{
+  "01-promocao.jpg": {
+    "url": "https://www.exemplo.pt/promocao",
+    "title": "Promocao de Natal",
+    "from": "2026-12-01",
+    "until": "2026-12-31",
+    "enabled": true
+  },
+  "02-parceiro.png": {
+    "url": "https://www.exemplo.pt"
+  }
+}

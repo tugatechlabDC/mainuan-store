@@ -1,0 +1,65 @@
+#!/bin/sh
+# Mainuan Store - lançador de AppImages
+#
+# Uso: appimage-run [--electron] [--root] <ficheiro.AppImage> [argumentos...]
+#
+# Resolve os problemas habituais dos AppImages em Ubuntu/Kubuntu:
+#  1. Sem FUSE 2 (libfuse2 / libfuse2t64 não vem instalado por defeito no Ubuntu 22.04+):
+#     o AppImage é executado em modo "extrair e executar" (não precisa de FUSE).
+#  2. Ubuntu 23.10+/24.04 bloqueiam "user namespaces" sem perfil AppArmor, o que faz as
+#     apps Electron falharem ao arrancar: acrescenta --no-sandbox nesses casos.
+#  3. "Executar como root": pkexec com o ambiente gráfico necessário.
+
+electron=0
+root=0
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --electron) electron=1; shift ;;
+        --root) root=1; shift ;;
+        --) shift; break ;;
+        *) break ;;
+    esac
+done
+
+app="$1"
+[ -n "$app" ] || { echo "uso: appimage-run [--electron] [--root] ficheiro.AppImage" >&2; exit 2; }
+shift
+[ -f "$app" ] || { echo "AppImage não encontrado: $app" >&2; exit 127; }
+[ -x "$app" ] || chmod +x "$app" 2>/dev/null
+
+if [ "$root" = 1 ] && [ "$(id -u)" != 0 ]; then
+    self=$(readlink -f "$0")
+    exec pkexec env \
+        DISPLAY="$DISPLAY" XAUTHORITY="${XAUTHORITY:-$HOME/.Xauthority}" \
+        WAYLAND_DISPLAY="$WAYLAND_DISPLAY" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" \
+        XDG_SESSION_TYPE="$XDG_SESSION_TYPE" \
+        "$self" $( [ "$electron" = 1 ] && echo --electron ) "$app" "$@"
+fi
+
+# --- 1. FUSE 2 disponível? ---
+fuse_ok=1
+if ! ldconfig -p 2>/dev/null | grep -q 'libfuse\.so\.2'; then
+    fuse_ok=0
+fi
+if ! command -v fusermount >/dev/null 2>&1 && ! command -v fusermount3 >/dev/null 2>&1; then
+    fuse_ok=0
+fi
+if [ ! -r /dev/fuse ] || [ ! -w /dev/fuse ]; then
+    fuse_ok=0
+fi
+if [ "$fuse_ok" = 0 ]; then
+    export APPIMAGE_EXTRACT_AND_RUN=1
+fi
+
+# --- 2. Electron / Chromium: sandbox bloqueada pelo sistema? ---
+if [ "$electron" = 1 ]; then
+    restricted=0
+    [ "$(cat /proc/sys/kernel/apparmor_restrict_unprivileged_userns 2>/dev/null)" = 1 ] && restricted=1
+    [ "$(cat /proc/sys/kernel/unprivileged_userns_clone 2>/dev/null)" = 0 ] && restricted=1
+    [ "$(cat /proc/sys/user/max_user_namespaces 2>/dev/null)" = 0 ] && restricted=1
+    if [ "$restricted" = 1 ]; then
+        exec "$app" --no-sandbox "$@"
+    fi
+fi
+
+exec "$app" "$@"

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Mainuan Store
+GenericName=Software Center
+GenericName[pt]=Centro de Software
+GenericName[fr]=Logithèque
+GenericName[es]=Centro de software
+Comment=Install and manage apps from DEB, APT, Flathub and AppImage
+Comment[pt]=Instala e gere aplicações via DEB, APT, Flathub e AppImage
+Comment[fr]=Installez et gérez des applications via DEB, APT et Flathub
+Comment[es]=Instala y gestiona aplicaciones desde DEB, APT y Flathub
+Exec=mainuan-store %f
+MimeType=application/vnd.debian.binary-package;application/x-deb;application/x-debian-package;application/vnd.appimage;application/x-iso9660-appimage;
+Icon=mainuan-store
+Terminal=false
+Categories=System;PackageManager;Qt;
+Keywords=store;software;apps;flatpak;apt;deb;appimage;snap;loja;
+StartupWMClass=mainuan-store

@@ -1,0 +1,790 @@
+[
+ {
+  "name": "VLC",
+  "category": "media",
+  "summary": {
+   "en": "Plays almost any video and audio file.",
+   "pt": "Reproduz quase todos os ficheiros de vídeo e áudio.",
+   "fr": "Lit presque tous les fichiers audio et vidéo.",
+   "es": "Reproduce casi cualquier archivo de audio y vídeo."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "vlc"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.videolan.VLC"
+   }
+  ]
+ },
+ {
+  "name": "Kdenlive",
+  "category": "media",
+  "summary": {
+   "en": "Powerful video editor.",
+   "pt": "Editor de vídeo poderoso.",
+   "fr": "Éditeur vidéo puissant.",
+   "es": "Potente editor de vídeo."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "kdenlive"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.kdenlive"
+   }
+  ]
+ },
+ {
+  "name": "OBS Studio",
+  "category": "media",
+  "summary": {
+   "en": "Record and stream video.",
+   "pt": "Grava e transmite vídeo.",
+   "fr": "Enregistrez et diffusez de la vidéo.",
+   "es": "Graba y transmite vídeo."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "obs-studio"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "com.obsproject.Studio"
+   }
+  ]
+ },
+ {
+  "name": "Audacity",
+  "category": "media",
+  "summary": {
+   "en": "Audio recorder and editor.",
+   "pt": "Gravador e editor de áudio.",
+   "fr": "Enregistreur et éditeur audio.",
+   "es": "Grabador y editor de audio."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "audacity"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.audacityteam.Audacity"
+   }
+  ]
+ },
+ {
+  "name": "Spotify",
+  "category": "media",
+  "summary": {
+   "en": "Music streaming.",
+   "pt": "Música em streaming.",
+   "fr": "Musique en streaming.",
+   "es": "Música en streaming."
+  },
+  "variants": [
+   {
+    "source": "flatpak",
+    "pkg": "com.spotify.Client"
+   }
+  ]
+ },
+ {
+  "name": "GIMP",
+  "category": "graphics",
+  "summary": {
+   "en": "Advanced image editor.",
+   "pt": "Editor de imagem avançado.",
+   "fr": "Éditeur d’images avancé.",
+   "es": "Editor de imágenes avanzado."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "gimp"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.gimp.GIMP"
+   }
+  ]
+ },
+ {
+  "name": "Krita",
+  "category": "graphics",
+  "summary": {
+   "en": "Digital painting for artists.",
+   "pt": "Pintura digital para artistas.",
+   "fr": "Peinture numérique pour artistes.",
+   "es": "Pintura digital para artistas."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "krita"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.krita"
+   }
+  ]
+ },
+ {
+  "name": "Inkscape",
+  "category": "graphics",
+  "summary": {
+   "en": "Vector graphics editor.",
+   "pt": "Editor de gráficos vetoriais.",
+   "fr": "Éditeur de graphismes vectoriels.",
+   "es": "Editor de gráficos vectoriales."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "inkscape"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.inkscape.Inkscape"
+   }
+  ]
+ },
+ {
+  "name": "Blender",
+  "category": "graphics",
+  "summary": {
+   "en": "3D creation suite.",
+   "pt": "Suite de criação 3D.",
+   "fr": "Suite de création 3D.",
+   "es": "Suite de creación 3D."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "blender"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.blender.Blender"
+   }
+  ]
+ },
+ {
+  "name": "LibreOffice",
+  "category": "office",
+  "summary": {
+   "en": "Complete office suite.",
+   "pt": "Suite de escritório completa.",
+   "fr": "Suite bureautique complète.",
+   "es": "Suite ofimática completa."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "libreoffice"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.libreoffice.LibreOffice"
+   }
+  ],
+  "icon": "libreoffice-startcenter"
+ },
+ {
+  "name": "OnlyOffice",
+  "category": "office",
+  "summary": {
+   "en": "Office suite compatible with Microsoft formats.",
+   "pt": "Suite de escritório compatível com formatos Microsoft.",
+   "fr": "Suite bureautique compatible Microsoft.",
+   "es": "Suite ofimática compatible con Microsoft."
+  },
+  "variants": [
+   {
+    "source": "flatpak",
+    "pkg": "org.onlyoffice.desktopeditors"
+   }
+  ]
+ },
+ {
+  "name": "Okular",
+  "category": "office",
+  "summary": {
+   "en": "Document and PDF viewer.",
+   "pt": "Visualizador de documentos e PDF.",
+   "fr": "Visionneuse de documents et PDF.",
+   "es": "Visor de documentos y PDF."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "okular"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.okular"
+   }
+  ]
+ },
+ {
+  "name": "Thunderbird",
+  "category": "internet",
+  "summary": {
+   "en": "Email, calendar and contacts.",
+   "pt": "Correio, calendário e contactos.",
+   "fr": "Courriel, agenda et contacts.",
+   "es": "Correo, calendario y contactos."
+  },
+  "variants": [
+   {
+    "source": "flatpak",
+    "pkg": "org.mozilla.Thunderbird"
+   }
+  ]
+ },
+ {
+  "name": "Telegram",
+  "category": "internet",
+  "summary": {
+   "en": "Fast and secure messaging.",
+   "pt": "Mensagens rápidas e seguras.",
+   "fr": "Messagerie rapide et sécurisée.",
+   "es": "Mensajería rápida y segura."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "telegram-desktop"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.telegram.desktop"
+   }
+  ]
+ },
+ {
+  "name": "FileZilla",
+  "category": "internet",
+  "summary": {
+   "en": "FTP and SFTP client.",
+   "pt": "Cliente FTP e SFTP.",
+   "fr": "Client FTP et SFTP.",
+   "es": "Cliente FTP y SFTP."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "filezilla"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.filezillaproject.Filezilla"
+   }
+  ]
+ },
+ {
+  "name": "qBittorrent",
+  "category": "internet",
+  "summary": {
+   "en": "BitTorrent client.",
+   "pt": "Cliente BitTorrent.",
+   "fr": "Client BitTorrent.",
+   "es": "Cliente BitTorrent."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "qbittorrent"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.qbittorrent.qBittorrent"
+   }
+  ]
+ },
+ {
+  "name": "Visual Studio Code",
+  "category": "dev",
+  "summary": {
+   "en": "Code editor.",
+   "pt": "Editor de código.",
+   "fr": "Éditeur de code.",
+   "es": "Editor de código."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "code"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "com.visualstudio.code"
+   }
+  ],
+  "icon": "vscode"
+ },
+ {
+  "name": "Kate",
+  "category": "dev",
+  "summary": {
+   "en": "Advanced text editor.",
+   "pt": "Editor de texto avançado.",
+   "fr": "Éditeur de texte avancé.",
+   "es": "Editor de texto avanzado."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "kate"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.kate"
+   }
+  ]
+ },
+ {
+  "name": "Qt Creator",
+  "category": "dev",
+  "summary": {
+   "en": "IDE for Qt and C++.",
+   "pt": "IDE para Qt e C++.",
+   "fr": "EDI pour Qt et C++.",
+   "es": "IDE para Qt y C++."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "qtcreator"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "io.qt.QtCreator"
+   }
+  ]
+ },
+ {
+  "name": "Steam",
+  "category": "games",
+  "summary": {
+   "en": "Game store and launcher.",
+   "pt": "Loja e lançador de jogos.",
+   "fr": "Boutique et lanceur de jeux.",
+   "es": "Tienda y lanzador de juegos."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "steam-installer"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "com.valvesoftware.Steam"
+   }
+  ],
+  "icon": "steam"
+ },
+ {
+  "name": "SuperTuxKart",
+  "category": "games",
+  "summary": {
+   "en": "3D open-source kart racing.",
+   "pt": "Corridas de karts 3D de código aberto.",
+   "fr": "Course de karts 3D libre.",
+   "es": "Carreras de karts 3D de código abierto."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "supertuxkart"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "net.supertuxkart.SuperTuxKart"
+   }
+  ]
+ },
+ {
+  "name": "0 A.D.",
+  "category": "games",
+  "summary": {
+   "en": "Ancient warfare strategy game.",
+   "pt": "Jogo de estratégia da Antiguidade.",
+   "fr": "Jeu de stratégie antique.",
+   "es": "Juego de estrategia antigua."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "0ad"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "com.play0ad.zeroad"
+   }
+  ]
+ },
+ {
+  "name": "GParted",
+  "category": "system",
+  "summary": {
+   "en": "Disk partition editor.",
+   "pt": "Editor de partições de disco.",
+   "fr": "Éditeur de partitions.",
+   "es": "Editor de particiones."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "gparted"
+   }
+  ]
+ },
+ {
+  "name": "KDE Partition Manager",
+  "category": "system",
+  "summary": {
+   "en": "Manage disks and partitions.",
+   "pt": "Gere discos e partições.",
+   "fr": "Gérez disques et partitions.",
+   "es": "Gestiona discos y particiones."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "partitionmanager"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.partitionmanager"
+   }
+  ]
+ },
+ {
+  "name": "Timeshift",
+  "category": "system",
+  "summary": {
+   "en": "System restore points.",
+   "pt": "Pontos de restauro do sistema.",
+   "fr": "Points de restauration système.",
+   "es": "Puntos de restauración del sistema."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "timeshift"
+   }
+  ]
+ },
+ {
+  "name": "KeePassXC",
+  "category": "utils",
+  "summary": {
+   "en": "Offline password manager.",
+   "pt": "Gestor de palavras-passe offline.",
+   "fr": "Gestionnaire de mots de passe hors ligne.",
+   "es": "Gestor de contraseñas sin conexión."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "keepassxc"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.keepassxc.KeePassXC"
+   }
+  ]
+ },
+ {
+  "name": "Flameshot",
+  "category": "utils",
+  "summary": {
+   "en": "Powerful screenshot tool.",
+   "pt": "Ferramenta de capturas de ecrã.",
+   "fr": "Outil de capture d’écran.",
+   "es": "Herramienta de capturas de pantalla."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "flameshot"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.flameshot.Flameshot"
+   }
+  ]
+ },
+ {
+  "name": "BleachBit",
+  "category": "utils",
+  "summary": {
+   "en": "Clean up disk space.",
+   "pt": "Liberta espaço em disco.",
+   "fr": "Libérez de l’espace disque.",
+   "es": "Libera espacio en disco."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "bleachbit"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.bleachbit.BleachBit"
+   }
+  ]
+ },
+ {
+  "name": "Orca",
+  "category": "accessibility",
+  "summary": {
+   "en": "Screen reader.",
+   "pt": "Leitor de ecrã.",
+   "fr": "Lecteur d’écran.",
+   "es": "Lector de pantalla."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "orca"
+   }
+  ]
+ },
+ {
+  "name": "KMag",
+  "category": "accessibility",
+  "summary": {
+   "en": "Screen magnifier.",
+   "pt": "Lupa de ecrã.",
+   "fr": "Loupe d’écran.",
+   "es": "Lupa de pantalla."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "kmag"
+   }
+  ]
+ },
+ {
+  "name": "GCompris",
+  "category": "education",
+  "summary": {
+   "en": "Educational games for children.",
+   "pt": "Jogos educativos para crianças.",
+   "fr": "Jeux éducatifs pour enfants.",
+   "es": "Juegos educativos para niños."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "gcompris-qt"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.gcompris"
+   }
+  ]
+ },
+ {
+  "name": "Kalzium",
+  "category": "education",
+  "summary": {
+   "en": "Periodic table of the elements.",
+   "pt": "Tabela periódica dos elementos.",
+   "fr": "Tableau périodique des éléments.",
+   "es": "Tabla periódica de los elementos."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "kalzium"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.kde.kalzium"
+   }
+  ]
+ },
+ {
+  "name": "Stellarium",
+  "category": "education",
+  "summary": {
+   "en": "Realistic planetarium.",
+   "pt": "Planetário realista.",
+   "fr": "Planétarium réaliste.",
+   "es": "Planetario realista."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "stellarium"
+   },
+   {
+    "source": "flatpak",
+    "pkg": "org.stellarium.Stellarium"
+   }
+  ]
+ },
+ {
+  "name": "Dolphin plugins",
+  "category": "addons",
+  "summary": {
+   "en": "Version control and extra actions for Dolphin.",
+   "pt": "Controlo de versões e ações extra no Dolphin.",
+   "fr": "Gestion de versions et actions pour Dolphin.",
+   "es": "Control de versiones y acciones extra en Dolphin."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "dolphin-plugins"
+   }
+  ],
+  "icon": "dolphin"
+ },
+ {
+  "name": "KIO GDrive",
+  "category": "addons",
+  "summary": {
+   "en": "Google Drive in Dolphin.",
+   "pt": "Google Drive no Dolphin.",
+   "fr": "Google Drive dans Dolphin.",
+   "es": "Google Drive en Dolphin."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "kio-gdrive"
+   }
+  ],
+  "icon": "folder-google-drive"
+ },
+ {
+  "name": "Okular backends",
+  "category": "addons",
+  "summary": {
+   "en": "Extra formats for Okular.",
+   "pt": "Formatos extra para o Okular.",
+   "fr": "Formats supplémentaires pour Okular.",
+   "es": "Formatos extra para Okular."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "okular-extra-backends"
+   }
+  ],
+  "icon": "okular"
+ },
+ {
+  "name": "Plasma widgets",
+  "category": "plasma",
+  "summary": {
+   "en": "Extra widgets for the Plasma desktop.",
+   "pt": "Widgets extra para o ambiente Plasma.",
+   "fr": "Widgets supplémentaires pour Plasma.",
+   "es": "Widgets extra para Plasma."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "plasma-widgets-addons"
+   }
+  ],
+  "icon": "plasma"
+ },
+ {
+  "name": "Plasma wallpapers",
+  "category": "plasma",
+  "summary": {
+   "en": "Extra wallpaper plugins for Plasma.",
+   "pt": "Plugins de papel de parede para o Plasma.",
+   "fr": "Modules de fonds d’écran pour Plasma.",
+   "es": "Complementos de fondos para Plasma."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "plasma-wallpapers-addons"
+   }
+  ],
+  "icon": "preferences-desktop-wallpaper"
+ },
+ {
+  "name": "Fira Code",
+  "category": "fonts",
+  "summary": {
+   "en": "Monospaced font with ligatures.",
+   "pt": "Fonte monoespaçada com ligaduras.",
+   "fr": "Police à chasse fixe avec ligatures.",
+   "es": "Fuente monoespaciada con ligaduras."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "fonts-firacode"
+   }
+  ],
+  "icon": "preferences-desktop-font"
+ },
+ {
+  "name": "JetBrains Mono",
+  "category": "fonts",
+  "summary": {
+   "en": "Typeface for developers.",
+   "pt": "Tipo de letra para programadores.",
+   "fr": "Police pour développeurs.",
+   "es": "Tipografía para desarrolladores."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "fonts-jetbrains-mono"
+   }
+  ],
+  "icon": "preferences-desktop-font"
+ },
+ {
+  "name": "Noto Color Emoji",
+  "category": "fonts",
+  "summary": {
+   "en": "Color emoji font.",
+   "pt": "Fonte de emojis a cores.",
+   "fr": "Police d’émojis en couleur.",
+   "es": "Fuente de emojis en color."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "fonts-noto-color-emoji"
+   }
+  ],
+  "icon": "preferences-desktop-font"
+ },
+ {
+  "name": "Hack",
+  "category": "fonts",
+  "summary": {
+   "en": "Typeface designed for source code.",
+   "pt": "Tipo de letra para código-fonte.",
+   "fr": "Police pour le code source.",
+   "es": "Tipografía para código fuente."
+  },
+  "variants": [
+   {
+    "source": "apt",
+    "pkg": "fonts-hack"
+   }
+  ],
+  "icon": "preferences-desktop-font"
+ }
+]

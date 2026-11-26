@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+if [ "$1" = "remove" ] || [ "$1" = "purge" ]; then
+    command -v update-desktop-database >/dev/null 2>&1 && update-desktop-database -q /usr/share/applications || true
+    # Ao desinstalar a loja, a pasta /appimage deixa de estar protegida:
+    # remove o atributo imutavel e devolve a propriedade ao primeiro utilizador normal.
+    if [ -d /appimage ]; then
+        command -v chattr >/dev/null 2>&1 && chattr -R -i /appimage 2>/dev/null || true
+        owner=$(getent passwd | awk -F: '$3>=1000 && $3<60000 && $7 !~ /(nologin|false)$/ {print $1; exit}')
+        if [ -n "$owner" ]; then
+            chown -R "$owner":"$(id -gn "$owner")" /appimage 2>/dev/null || true
+            chmod -R u+rwX /appimage 2>/dev/null || true
+        else
+            chmod -R a+rwX /appimage 2>/dev/null || true
+        fi
+    fi
+fi
+exit 0

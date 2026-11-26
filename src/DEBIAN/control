@@ -1,0 +1,12 @@
+Package: mainuan-store
+Version: 0.7.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Mainuan <mainuan@localhost>
+Depends: python3 (>= 3.10), e2fsprogs, libglib2.0-bin, libqt6svg6, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtwidgets, python3-pyside6.qtnetwork, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, pkexec | policykit-1, apt, dpkg
+Recommends: flatpak, fwupd, python3-yaml, libfuse2t64 | libfuse2, desktop-file-utils
+Description: Mainuan Store - software center for Mainuan
+ Graphical store for the Mainuan distribution. Installs and removes
+ applications from APT, Flathub, AppImage, Snap and local DEB files, and showcases
+ the apps made exclusively for Mainuan.

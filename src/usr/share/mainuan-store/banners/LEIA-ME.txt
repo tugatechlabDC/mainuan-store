@@ -1,0 +1,44 @@
+BANNERS DE PUBLICIDADE - MAINUAN STORE
+======================================
+
+Esta pasta e (no sistema instalado):  /usr/share/mainuan-store/banners/
+No projeto (pacote DEB):               usr/share/mainuan-store/banners/
+
+Para publicar um banner basta colocar aqui a imagem e gerar/atualizar o pacote
+mainuan-store. Depois de o utilizador atualizar a app, o banner aparece sozinho
+no menu INICIO (rodam automaticamente, a cada 7 segundos, a seguir ao banner
+"Bem-vindo ao Mainuan Store").
+
+FORMATO DAS IMAGENS
+-------------------
+  Resolucao recomendada : 1920 x 384 px   (proporcao 5:1)
+  Formatos aceites      : JPG / JPEG, PNG ou WEBP
+  Tamanho do ficheiro   : ideal ate 500 KB (maximo recomendado 1 MB)
+  Zona segura           : mantenha texto e logos dentro dos 1200 x 300 px centrais;
+                          as margens podem ser cortadas conforme a largura da janela.
+  Nome dos ficheiros    : qualquer nome. A ordem e alfabetica; para controlar a
+                          ordem use prefixos: 01-promocao.jpg, 02-parceiro.png ...
+  Ficheiros que comecam por "_" ou "." sao ignorados (ex.: _modelo-banner.png).
+
+OPCIONAL - LIGACAO, DATAS E DESATIVAR (ficheiro banners.json)
+-------------------------------------------------------------
+Crie nesta pasta um ficheiro "banners.json" (ver banners.json.exemplo):
+
+  {
+    "01-promocao.jpg": {
+      "url":   "https://www.exemplo.pt/promocao",   <- abre ao clicar (so http/https)
+      "title": "Promocao de Natal",                 <- texto da dica (tooltip)
+      "from":  "2026-12-01",                        <- comecar a mostrar nesta data
+      "until": "2026-12-31",                        <- deixar de mostrar depois desta data
+      "enabled": true                               <- false = desativar sem apagar
+    }
+  }
+
+Todos os campos sao opcionais. Sem banners.json os banners apenas rodam.
+Se a pasta nao tiver banners, mostra-se apenas o banner "Bem-vindo".
+
+BANNER ATUAL (temporario)
+-------------------------
+00-apps-exclusivas-mainuan.jpg  -> mostra as 10 apps exclusivas Mainuan.
+Aparece como 2.o banner (logo a seguir ao "Bem-vindo") e e mostrado de 2026-11-21
+ate 2027-08-30 (inclusive); depois dessa data deixa de aparecer sozinho (ver banners.json).

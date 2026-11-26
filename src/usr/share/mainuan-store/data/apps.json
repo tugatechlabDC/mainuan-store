@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Mainuan Kernel Installer",
+    "package": "mainuan-kernel-installer",
+    "repo": "mainuan/mainuan-kernel-installer",
+    "category": "system",
+    "icon": "mainuan-kernel-installer.png",
+    "iconName": "mainuan-kernel-installer",
+    "summary": {
+      "en": "Install and manage Linux kernels in a few clicks.",
+      "pt": "Instala e gere kernels Linux em poucos cliques."
+    },
+    "description": {
+      "en": "Mainuan Kernel Installer lets you choose, install and remove Linux kernels from a simple graphical interface, built for Mainuan.",
+      "pt": "O Mainuan Kernel Installer permite escolher, instalar e remover kernels Linux através de uma interface gráfica simples, feita para a Mainuan."
+    },
+    "screenshots_dir": "screenshots"
+  },
+  {
+    "name": "Mainuan Otimizador",
+    "package": "mainuan-otimizador",
+    "repo": "mainuan/mainuan-otimizador",
+    "category": "system",
+    "icon": "mainuan-otimizador.png",
+    "iconName": "mainuan-otimizador",
+    "summary": {
+      "en": "Optimize and clean your Mainuan system.",
+      "pt": "Otimiza e limpa o teu sistema Mainuan."
+    },
+    "description": {
+      "en": "Mainuan Otimizador gathers system optimization and cleanup tools in a single, easy-to-use application.",
+      "pt": "O Mainuan Otimizador reúne ferramentas de otimização e limpeza do sistema numa única aplicação fácil de usar."
+    }
+  },
+  {
+    "name": "Mainuan Aparência",
+    "package": "mainuan-aparencia",
+    "repo": "mainuan/mainuan-aparencia",
+    "category": "plasma",
+    "icon": "mainuan-aparencia.png",
+    "iconName": "mainuan-aparencia",
+    "summary": {
+      "en": "Theme, accent color, desktop layouts and wallpapers.",
+      "pt": "Tema, cor de destaque, layouts do ambiente de trabalho e wallpapers."
+    },
+    "description": {
+      "en": "Mainuan Appearance customizes colors, transparency, icons, desktop layout and wallpapers of your Mainuan desktop.",
+      "pt": "O Mainuan Aparência personaliza as cores, a transparência, os ícones, o layout do ambiente de trabalho e os wallpapers da tua Mainuan."
+    }
+  },
+  {
+    "name": "Mainuan Webapp Manager",
+    "package": "mainuan-webapp-manager",
+    "repo": "mainuan/mainuan-webapp-manager",
+    "category": "internet",
+    "icon": "mainuan-webapp-manager.png",
+    "iconName": "mainuan-webapp-manager",
+    "summary": {
+      "en": "Turn websites into desktop apps.",
+      "pt": "Transforma sites em aplicações de ambiente de trabalho."
+    },
+    "description": {
+      "en": "Mainuan Webapp Manager creates and manages web applications that open in their own window and appear in the start menu.",
+      "pt": "O Mainuan Webapp Manager cria e gere aplicações web que abrem na sua própria janela e aparecem no menu iniciar."
+    }
+  },
+  {
+    "name": "Mainuan AppImage Manager",
+    "package": "mainuan-appimage-manager",
+    "repo": "mainuan/mainuan-appimage-manager",
+    "category": "system",
+    "icon": "mainuan-appimage-manager.png",
+    "iconName": "mainuan-appimage-manager",
+    "summary": {
+      "en": "Manage and integrate AppImage applications.",
+      "pt": "Gere e integra aplicações AppImage."
+    },
+    "description": {
+      "en": "Mainuan AppImage Manager adds AppImage files to the start menu, manages their properties and checks for updates.",
+      "pt": "O Mainuan AppImage Manager adiciona ficheiros AppImage ao menu iniciar, gere as suas propriedades e procura atualizações."
+    }
+  },
+  {
+    "name": "Mainuan GRUB Editor",
+    "package": "mainuan-grub-editor",
+    "repo": "mainuan/mainuan-grub-editor",
+    "category": "system",
+    "icon": "mainuan-grub-editor.png",
+    "iconName": "mainuan-grub-editor",
+    "summary": {
+      "en": "Edit the GRUB boot menu graphically.",
+      "pt": "Edita o menu de arranque GRUB graficamente."
+    },
+    "description": {
+      "en": "Mainuan GRUB Editor lets you customize the GRUB boot loader (theme, timeout, default entry) without touching configuration files.",
+      "pt": "O Mainuan GRUB Editor permite personalizar o carregador de arranque GRUB (tema, tempo de espera, entrada por defeito) sem editar ficheiros de configuração."
+    },
+    "screenshots": [
+      "mainuan-grub-editor-principal.png",
+      "mainuan-grub-editor-configuracao-geral.png",
+      "mainuan-grub-editor-entradas-inicializacao.png",
+      "mainuan-grub-editor-aparencia.png"
+    ]
+  },
+  {
+    "name": "Mainuan Audio Player",
+    "package": "mainuan-audio-player",
+    "repo": "mainuan/mainuan-audio-player",
+    "category": "media",
+    "icon": "mainuan-audio-player.png",
+    "iconName": "mainuan-audio-player",
+    "summary": {
+      "en": "Simple and elegant music player.",
+      "pt": "Leitor de música simples e elegante."
+    },
+    "description": {
+      "en": "Mainuan Audio Player is a music player with the Mainuan look, focused on simplicity and sound quality.",
+      "pt": "O Mainuan Audio Player é um leitor de música com o aspeto Mainuan, focado na simplicidade e na qualidade de som."
+    }
+  },
+  {
+    "name": "Mainuan Video Player",
+    "package": "mainuan-video-player",
+    "repo": "mainuan/mainuan-video-player",
+    "category": "media",
+    "icon": "mainuan-video-player.png",
+    "iconName": "mainuan-video-player",
+    "summary": {
+      "en": "Video player based on mpv.",
+      "pt": "Leitor de vídeo baseado no mpv."
+    },
+    "description": {
+      "en": "Mainuan Video Player plays any video format with the power of mpv and a clean interface in the Mainuan style.",
+      "pt": "O Mainuan Video Player reproduz qualquer formato de vídeo com a potência do mpv e uma interface limpa no estilo Mainuan."
+    }
+  },
+  {
+    "name": "Mainuan Gerenciador Tarefas",
+    "package": "mainuan-gerenciador-tarefas",
+    "aliases": [
+      "mainuan-gerenciador"
+    ],
+    "repo": "mainuan/mainuan-gerenciador",
+    "category": "system",
+    "icon": "mainuan-gerenciador-tarefas.png",
+    "iconName": "mainuan-gerenciador-tarefas",
+    "summary": {
+      "en": "Monitor processes and system resources.",
+      "pt": "Monitoriza processos e recursos do sistema."
+    },
+    "description": {
+      "en": "Mainuan Task Manager lets you see running processes, CPU, memory and disk usage, and end unresponsive apps, from a simple graphical interface built for Mainuan.",
+      "pt": "O Mainuan Gerenciador Tarefas permite ver os processos em execução, o uso do processador, da memória e do disco, e terminar aplicações que não respondem, numa interface gráfica simples feita para a Mainuan."
+    },
+    "screenshots_dir": "screenshots"
+  },
+  {
+    "name": "Mainuan Limpeza",
+    "package": "mainuan-limpeza",
+    "repo": "mainuan/mainuan-limpeza",
+    "category": "system",
+    "icon": "mainuan-limpeza.png",
+    "iconName": "mainuan-limpeza",
+    "summary": {
+      "en": "Clean junk files and free up disk space.",
+      "pt": "Limpa ficheiros desnecessários e liberta espaço no disco."
+    },
+    "description": {
+      "en": "Mainuan Cleaner removes caches, temporary files and other leftovers to free up disk space, from a simple graphical interface built for Mainuan.",
+      "pt": "A Mainuan Limpeza remove caches, ficheiros temporários e outros restos para libertar espaço no disco, numa interface gráfica simples feita para a Mainuan."
+    },
+    "screenshots_dir": "screenshots"
+  }
+]

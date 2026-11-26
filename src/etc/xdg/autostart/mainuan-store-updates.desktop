@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Mainuan Store - Update notifications
+Name[pt]=Mainuan Store - Avisos de atualizações
+Comment=Shows an icon in the notification area when updates are available
+Comment[pt]=Mostra um ícone na área de notificações quando há atualizações disponíveis
+Exec=mainuan-store-tray
+Icon=mainuan-store
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=3
+X-KDE-autostart-after=panel

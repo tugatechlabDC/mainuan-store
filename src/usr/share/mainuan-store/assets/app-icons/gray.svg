@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1{fill:#4b595c;fill-rule:evenodd}
+      .cls-2{fill:url(#linear-gradient-1)}
+      .cls-3{fill:url(#linear-gradient-2)}
+      .cls-4{fill:#000000;fill-opacity:0.08}
+      .cls-5{fill:#516469}
+      .cls-6{fill:#000000;fill-opacity:0.3;fill-rule:evenodd}
+      .cls-7{fill:none;stroke:#b3b3b3;stroke-width:1.412;stroke-linecap:round}
+      .cls-8{fill:url(#linear-gradient-3);fill-rule:evenodd}
+      .cls-9{fill:none;stroke:url(#linear-gradient-4);stroke-width:2.364;stroke-linecap:round}
+      .cls-10{fill:#ffffff;fill-rule:evenodd}
+    </style>
+    <linearGradient id="linear-gradient-1" x1="4.302" y1="5.557" x2="7.749" y2="5.557" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60777d"/>
+      <stop offset="1" stop-color="#4b595c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="40.251" y1="5.557" x2="43.698" y2="5.557" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b595c"/>
+      <stop offset="1" stop-color="#60777d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="24" y1="45.668" x2="24" y2="9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b595c"/>
+      <stop offset="1" stop-color="#60777d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.362" y1="1.355" x2="0.362" y2="0.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <title>Artboard 1</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <rect x="4.302" y="3.095" width="39.396" height="9.849" class="cls-1"/>
+      <polygon points="4.302,3.095 4.302,29.687 7.749,5.557" class="cls-2"/>
+      <polygon points="43.698,3.095 43.698,8.019 40.251,5.557" class="cls-3"/>
+      <polygon points="7.749,5.557 15.333,10.974 4.302,10.974" class="cls-4"/>
+      <polygon points="45.668,9.004 40.251,9.004 40.251,5.557" class="cls-5"/>
+      <polygon points="7.749,5.557 2.332,9.004 7.749,9.004" class="cls-5"/>
+    </g>
+    <g>
+      <circle cx="18.116" cy="7.827" r="1.177" class="cls-6"/>
+      <circle cx="29.884" cy="7.827" r="1.177" class="cls-6"/>
+      <path d="M29.884 7.239 C29.884 4.011 27.228 1.355 24 1.355 C20.772 1.355 18.116 4.011 18.116 7.239" class="cls-7"/>
+    </g>
+    <path d="M2.332 39.44 L2.332 9.279 C2.332 9.185 2.336 9.092 2.345 9 L45.655 9 C45.664 9.092 45.668 9.185 45.668 9.279 L45.668 39.44 C45.668 42.878 42.878 45.668 39.44 45.668 L8.56 45.668 C5.122 45.668 2.332 42.878 2.332 39.44 Z" class="cls-8"/>
+    <circle cx="14.151" cy="14.158" r="1.97" class="cls-6"/>
+    <circle cx="33.849" cy="14.158" r="1.97" class="cls-6"/>
+    <path d="M33.849 13.174 C33.849 7.77 29.403 3.324 24 3.324 C18.597 3.324 14.151 7.77 14.151 13.174" class="cls-9"/>
+    <g id="mainuan-4.svg">
+      <g>
+        <path d="M17.141 31.239 L17.141 37.187 C17.141 37.519 17.01 37.838 16.775 38.072 C16.54 38.307 16.222 38.439 15.89 38.439 L10.966 38.439 L10.966 24.669 Z" class="cls-10"/>
+        <path d="M37.027 24.722 C37.032 24.772 37.034 24.822 37.034 24.873 L37.031 35.851 C37.031 36.28 36.861 36.691 36.558 36.995 C36.254 37.298 35.843 37.468 35.414 37.468 L30.922 37.468 L30.922 31.091 C30.946 29.589 29.661 29.349 27.974 31.044 L24.13 34.637 C23.729 35.012 23.195 35.211 22.646 35.192 C22.098 35.172 21.58 34.934 21.207 34.532 L11.456 24.009 C10.962 23.476 10.83 22.7 11.122 22.033 C11.413 21.367 12.071 20.936 12.799 20.936 L18.523 20.936 C20.264 20.987 21.868 20.775 23.533 22.478 L26.685 25.6 C27.492 26.395 28.302 27.251 29.707 27.387 C30.937 27.505 32.13 25.952 32.564 25.41 C33.386 24.382 34.157 23.396 34.199 23.362 C34.5 23.075 34.908 22.898 35.357 22.898 C36.282 22.898 37.034 23.65 37.034 24.575 C37.034 24.625 37.032 24.673 37.027 24.722 Z" class="cls-10"/>
+      </g>
+    </g>
+  </g>
+</svg>
